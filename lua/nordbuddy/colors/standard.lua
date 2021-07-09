@@ -38,7 +38,7 @@ return function(c, s, cs)
         --- Gutter ---
         {'CursorColumn', c.none, c.nord1},
         {'CursorLineNr', c.nord4, c.nord1},
-        {'Folded', c.nord3, c.nord0},
+        {'Folded', c.nord3, c.nord0_light},
         {'FoldColumn', c.nord3, c.nord0},
         {'SignColumn', c.nord1, c.nord0},
         -- Navigation ---
@@ -49,19 +49,19 @@ return function(c, s, cs)
         {'ModeMsg', c.nord4},
         {'MoreMsg', c.nord8},
         {'Question', c.nord4},
-        {'StatusLine', c.nord8, c.nord3},
-        {'StatusLineNC', c.nord4, c.nord1},
-        {'StatusLineTerm', c.nord8, c.nord3},
-        {'StatusLineTermNC', c.nord4, c.nord1},
+        {'StatusLine', c.nord5, c.nord0},
+        {'StatusLineNC', c.nord3, c.nord0},
+        {'StatusLineTerm', c.nord0, c.nord0},
+        {'StatusLineTermNC', c.nord0, c.nord0},
         {'WarningMsg', c.nord0, c.nord13},
         {'WildMenu', c.nord8, c.nord1},
         --- Search ---
-        {'IncSearch', c.nord6, c.nord10, s.underline},
-        {'Search', c.nord1, c.nord8},
+        {'IncSearch', c.nord6, c.nord3, s.underline},
+        {'Search', c.nord5, c.nord3, s.underline},
         --- Tabs ---
-        {'TabLine', c.nord4, c.nord1},
-        {'TabLineFill', c.nord4, c.nord1},
-        {'TabLineSel', c.nord8, c.nord3},
+        {'TabLine', c.nord3_light, c.nord0},
+        {'TabLineFill', c.nord3_light, c.nord0},
+        {'TabLineSel', c.nord4, c.nord0},
         --- Window ---
         {'Title', c.nord4, c.none, s.bold},
         --- Others ---
