@@ -42,7 +42,6 @@ use {
 }
 ```
 
-
 ### Alternatively
 
 #### Install
@@ -94,3 +93,8 @@ let g:nord_italic_comments = v:false
 let g:nord_minimal_mode = v:false
 colorscheme nordbuddy
 ```
+
+## Notes
+
+Some plugin highlights are configured manually with Lua tables. This colorscheme comes with some
+[pre-made configurations](https://github.com/maaslalani/nordbuddy/tree/main/lua/nordbuddy/configs) that contains setup instructions.
